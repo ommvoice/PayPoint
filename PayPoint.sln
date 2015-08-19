@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PayPoint.WebUI", "PayPoint.WebUI\PayPoint.WebUI.csproj", "{DB808C71-FCA8-4C94-8FD7-5F5FEEA60BBD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PayPoint.WebApi", "WebPoint.WebApi\PayPoint.WebApi.csproj", "{AECC8AB7-9675-4EBC-9C70-66A4CCBBEC40}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PayPoint.Domain", "PayPoint.Domain\PayPoint.Domain.csproj", "{257875D7-86CE-4CF3-8244-2E378B7036AD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common", "Common\Common.csproj", "{82C686D1-7D26-4990-96A0-2AE7B9032E66}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DB808C71-FCA8-4C94-8FD7-5F5FEEA60BBD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB808C71-FCA8-4C94-8FD7-5F5FEEA60BBD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB808C71-FCA8-4C94-8FD7-5F5FEEA60BBD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB808C71-FCA8-4C94-8FD7-5F5FEEA60BBD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AECC8AB7-9675-4EBC-9C70-66A4CCBBEC40}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AECC8AB7-9675-4EBC-9C70-66A4CCBBEC40}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AECC8AB7-9675-4EBC-9C70-66A4CCBBEC40}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AECC8AB7-9675-4EBC-9C70-66A4CCBBEC40}.Release|Any CPU.Build.0 = Release|Any CPU
+		{257875D7-86CE-4CF3-8244-2E378B7036AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{257875D7-86CE-4CF3-8244-2E378B7036AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{257875D7-86CE-4CF3-8244-2E378B7036AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{257875D7-86CE-4CF3-8244-2E378B7036AD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{82C686D1-7D26-4990-96A0-2AE7B9032E66}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{82C686D1-7D26-4990-96A0-2AE7B9032E66}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{82C686D1-7D26-4990-96A0-2AE7B9032E66}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{82C686D1-7D26-4990-96A0-2AE7B9032E66}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
